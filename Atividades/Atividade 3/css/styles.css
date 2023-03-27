@@ -8,8 +8,6 @@ h1{
 /*Instrução 3 */
 .text-center{
     text-align: center;
-    content:" § ";
-    color: darkblue;
 }
 
 /*Instrução 3 */
@@ -41,6 +39,10 @@ a:focus{
 }
 
 .link:hover:after{           
+    content:" § ";
+    color: darkblue;
+}
+.text-center:hover:after{           
     content:" § ";
     color: darkblue;
 }
