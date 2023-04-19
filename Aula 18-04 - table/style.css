@@ -1,0 +1,25 @@
+
+caption {
+    caption-side: bottom;
+}
+
+th {
+    /*background-color: #04AA6D; */
+    background-color: #cc6600;
+    text-align: center;
+    padding: 10px;
+}
+
+table {
+
+    font-family: Verdana;
+    border-collapse: collapse;
+    font-size: 12px;
+    width: 60%;
+    padding: 30px;
+}
+
+td {
+    
+    padding: 10px;
+}
