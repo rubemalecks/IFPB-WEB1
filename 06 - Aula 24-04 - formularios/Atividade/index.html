@@ -14,33 +14,37 @@
         <fieldset>
             <legend>Dados Pessoais</legend>
 
-            <label for="inome"> Nome: </label>
-
-            <input type="text" name="nome" id="inome" size="22" >
-
-
-            <label for="Sobrenome" class="coluna2">Sobrenome: </label>
-            <input type="text" name="Sobrenome" id="Sobrenome" size="20" >
+            <div>
+                <label for="inome"> Nome: </label>
+                <input type="text" name="nome" id="inome" size="22">
+                <label for="Sobrenome" class="coluna2">Sobrenome: </label>
+                <input type="text" name="Sobrenome" id="Sobrenome">
+            </div>
+            <br>
+            <div>
+                <label for="inascimento">Nascimento: </label>
+                <input type="date" name="nascimento" id="inascimento">
+            </div>
             <br>
 
-            <label for="inascimento">Nascimento: </label>
-            <input type="date" name="nascimento" id="inascimento">
-            <br>
+            <div>
+                <label for="iRG">RG: </label>
+                <input type="text" maxlength="7" id="iRG" name="RG">
+                <br>
+            </div>
 
-            <label for="iRG">RG: </label>
-            <input type="text" maxlength="7" id="iRG" name="RG">
-            <br>
-
-            <label for="iCPF">CPF: </label>
-            <input type="text" maxlength="9" size="9" id="iCPF" name="iCPF"> -
-            <input type="text" maxlength="3" size="3" id="iCPF" name="iCPF">
+            <div>
+                <label for="iCPF">CPF: </label>
+                <input type="text" maxlength="9" size="9" id="iCPF" name="iCPF"> -
+                <input type="text" maxlength="3" size="3" id="iCPF" name="iCPF">
+            </div>
         </fieldset>
         <br>
         <fieldset>
             <legend>Dados de Endereço</legend>
             <label for="Rua">Rua: </label>
             <input type="text" name="Rua" id="Rua">
-            <label for="Numero"class="coluna2">Numero: </label>
+            <label for="Numero" class="coluna2">Numero: </label>
             <input type="text" name="Numero" id="Numero" size="5" maxlength="5">
             <br>
             <label for="Bairro">Bairro: </label>
